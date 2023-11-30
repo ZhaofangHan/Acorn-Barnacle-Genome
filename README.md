@@ -10,14 +10,18 @@
    
    $ sh psmc.sh
    
-3. tree_pipeline.sh and muscle_Gblocks.sh  ##
-   Those two programs are used to contrust phylogenetic tree.
+3. phylogenetic_tree  ##
+   The program is used to contrust phylogenetic tree.
    
    $ sh tree_pipeline.sh
-   $ sh muscle_Gblocks.sh
    
 4. pickUnigeneFromFa.py ##
    The python script was use to select genes from a FASTA file.
    
-   $ python pickUnigeneFromFa.py fastaFile lociInfo
+   $ python pickUnigeneFromFa.py fastaFile lociInfo  ##
    Note: lociInfo format: queryGene Begin End
+
+5. ka_ks  ##
+   The program is used to calculate ka and ks.
+
+   $ sh run_ka_ks.sh
