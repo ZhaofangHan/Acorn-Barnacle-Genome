@@ -1,3 +1,4 @@
+## run blastp
 nprocs=24
 
 DB=~/project/20190801_balanus_genome/02_annotation/09.filter/Aam_pep
